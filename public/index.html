@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Foot Ball Apps</title>
+  <link rel="stylesheet" href="./style/main.css" />
+  <script src="https://kit.fontawesome.com/c228b3c45c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="contenar-body">
+    <nav class="nav">
+      <a><i class="fad fa-futbol fa-2x"></i> </a>
+      <a href="#" class="nav-link">Football Apps</a>
+    </nav>
+    <section class="contenar">
+      <div class="contenar__select">
+        <label class="contenar__lable">Choose a County:</label>
+        <select id="Comptition" class="Competition__menu content-select">
+          <option value="0"></option>
+          <option value="Spain">Spain</option>
+          <option value="Italy">Italy</option>
+          <option value="England">England</option>
+          <option value="France">France</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Chile">Chile</option>
+          <option value="Canada">Canada</option>
+          <option value="China">China</option>
+        </select>
+      </div>
+
+      <div class="contenar__select hide" id="Competitions-season">
+        <label class="contenar__lable" for="competitions">competitions season:</label>
+        <select id="drop2" class="content-select">
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="contenar2">
+      <table style="width:80%" id="tabel" class="content-table">
+        <thead>
+          <tr>
+            <th class="col-40">Name</th>
+            <th class="col-33 text-center">Start / End</th>
+          </tr>
+        </thead>
+        <tbody id="tbcontant"></tbody>
+      </table>
+    </section>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

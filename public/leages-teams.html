@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Football Apps</title>
+    <link rel="stylesheet" href="/style/main.css" />
+    <script src="https://kit.fontawesome.com/c228b3c45c.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="GetTeams()">
+    <div class="contenar-body">
+        <nav class="nav">
+            <a><i class="fad fa-futbol fa-2x"></i> </a>
+            <a href="/" class="nav-link">Football Apps</a>
+        </nav>
+
+        <section class="contenar2">
+            <table style="width:80%" id="tabel" class="content-table">
+                <thead>
+                    <tr>
+                        <th class="col-40">Team</th>
+                        <th class="col-33">Location</th>
+                        <th class="col-33">City</th>
+                    </tr>
+                </thead>
+                <tbody id="tbcontant"></tbody>
+            </table>
+        </section>
+    </div>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
